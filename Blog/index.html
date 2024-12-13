@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <h1>Blog</h1>
+
+    <form action="">
+      <div class="campo"> 
+        <label for="titulo">Titulo:</label>
+        <input type="text" id="titulo" class="titulo" required />
+      </div>
+
+      <div class="campo">
+        <label for="conteudo">Conteúdo:</label>
+        <input type="text" id="conteudo" class="conteudo" required />
+      </div>
+
+      <button id="enviar">Enviar</button>
+    </form>
+
+    <h2>Resposta da API:</h2>
+    <pre id="resposta"></pre>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
